@@ -1,24 +1,12 @@
-# README
+# 環境構築方法
+1. 以下リポジトリをクローンする。
+    - `git clone https://github.com/gurimon1115/rails_docker.git`  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+2. ディレクトリを移動する。
+    - `cd rails-docker`
 
-Things you may want to cover:
+3. コンテナを作成を作成し起動する。
+    - `docker-compose up -d`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. 以下にアクセスしアプリが起動していれば完了。
+    - [ローカルホスト](http://localhost:3000/)
