@@ -8,5 +8,11 @@
 3. コンテナを作成を作成し起動する。
     - `docker-compose up -d`
 
+4. DBを作成する。(初回のみ実行)
+    - `docker-compose run web rails db:create`
+
+5. migrateを実行する。(初回＆DB定義変更時に実行)
+    - `docker-compose run web rails db:migrate`
+
 4. 以下にアクセスしアプリが起動していれば完了。
     - [ローカルホスト](http://localhost:3000/)
