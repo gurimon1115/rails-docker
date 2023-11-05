@@ -14,5 +14,5 @@
 5. migrateを実行する。(初回＆DB定義変更時に実行)
     - `docker-compose run web rails db:migrate`
 
-4. 以下にアクセスしアプリが起動していれば完了。
+6. 以下にアクセスしアプリが起動していれば完了。
     - [ローカルホスト](http://localhost:3000/)
